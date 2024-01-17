@@ -1,12 +1,12 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Fake Login Page
+  title: Html Injection 
   description: '<div class="login-form">
     <div class="heading">
-        <h1>HTML Injection : Fake Login</h1>
+        <h1 style="font-size:50px">HTML Injection : Hacked </h1>
     </div>
-    <div class="form-container">
+  */  <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Username</label>
@@ -22,7 +22,7 @@ info:
                 <button type="submit" class="btn btn-default">Login</button>
             </div>
         </form>
-    </div>
+    </div>*/
 </div>'
 paths:
   /:
